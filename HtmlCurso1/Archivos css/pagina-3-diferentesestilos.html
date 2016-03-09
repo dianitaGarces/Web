@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="pagina-3-diferentesestilos.css"/>
+		<title>Máximo desafío</title>
+	</head>
+	<body>
+		<p id="intro">Efecto cascada con CSS</p>
+		<div>
+			<p>Cuando establecés una propiedad de un selector como 'p' con un cierto valor, ese valor se aplica a <em>todas</em> las etiquetas p.
+			Sin embargo, si cambiás esa misma propiedad a un valor diferente para una instancia de p más específica,
+			ese cambio <em>sobreescribirá</em> la 'regla general'.
+			</p>
+			<ul>
+				<li><p>Si decís: p { font-family: Garamond}, todas las 'p' tendrán fuente Garamond.</p></li>
+				<li><p class="list_item">PERO si dices li p {font-family: Verdana}, las 'p' fuera de las 'li' tendrán
+					   fuente Garamond, y las 'p' DENTRO de las 'li' tendrán fuente Verdana.
+				</p></li>
+				<li><p>Cuanto más específicos sean tus selectores, más importancia le da CSS al estilo que apliques.</p></li>
+			</ul>
+		</div>
+		<p id="resumen">Una mayor especificidad hace que CSS le dé prioridad a ese estilo particular.</p>
+	</body>
+</html>
